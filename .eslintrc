@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "globals": {
+    "describe": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterAll": true,
+    "afterEach": true,
+    "test": true,
+    "document": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "module": true,
+    "__dirname": true,
+    "window": true,
+    "Promise": true,
+    "require": true
+  }
+}
